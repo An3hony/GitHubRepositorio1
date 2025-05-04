@@ -20,7 +20,7 @@ for (var i = 0; i < Poblacion.Length; i++)
 Console.WriteLine($"Población General:{Poblacion.Sum():N0+}");
 Console.WriteLine($"mayor Población:{maxDepkey}");
 Console.WriteLine($"menor Población:{minDepkey}");
-Console.WriteLine($"dato Desornado");
+Console.WriteLine($"dato desornado");
 foreach (ver item in deccionario)
 Console.WriteLine($"{item.Key,-20}==> {item.Value,10:N0}");
 Console.ReadLine();

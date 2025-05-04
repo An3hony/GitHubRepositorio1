@@ -24,3 +24,5 @@ Console.WriteLine($"dato desornado");
 foreach (ver item in deccionario)
 Console.WriteLine($"{item.Key,-20}==> {item.Value,10:N0}");
 Console.ReadLine();
+//sumar toda las poblaciones con SUM de LINGQ
+Console.WriteLIne($"piblacion general.:{dicionario.valuce.SUM():N0}");
